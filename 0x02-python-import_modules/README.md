@@ -1,12 +1,12 @@
 # Importing Modules
 
-##Technologies
+## Technologies
 * Ubuntu 20.04 LTS
 * pycodestyle(version 3.80)
 
-##Files
+## Files
 The following files were studied and created on modules 
-file_name | description
+*file_name* | *description*
 --- | ---
 `0-add.py` | Write a program that imports the function def add(a, b): from the file `add_0.py` and prints the result of the addition `1 + 2 = 3`
 `1.calculation.py` | Write a program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.
