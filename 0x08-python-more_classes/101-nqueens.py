@@ -1,11 +1,13 @@
 #!/usr/bin/python3
+
+import sys
+
 """
 
 This module contains an algorithm that resolves the N-Queen puzzle
 using backtracking
 
 """
-import sys
 
 def isSafe(m_queen, nqueen):
     """ Method that determines if the queens can or can't kill each other
