@@ -3,7 +3,7 @@
 Python script that shows the last 10 commits of a repository
 in GitHub
 """
-import requests
+from requests import get, auth
 import sys
 
 
@@ -17,5 +17,5 @@ if __name__ == "__main__":
         for i in range(0, 10):
             print("{}: {}".format(json_a[i].get('sha'), json_a[i].get('commit')
                                   .get('author').get('name')))
-    except:
+    except IndexError:
         pass
