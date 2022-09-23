@@ -10,6 +10,6 @@ import sys
 if __name__ == "__main__":
     try:
         a = requests.get(sys.argv[1])
-        print(a.header['X-Request-Id'])
-    except:
+        print(a.headers['X-Request-Id'])
+    except IndexError:
         pass
